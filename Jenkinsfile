@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Github Clone & Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'docker',
                     url: 'https://github.com/LOFL404/dockerfile-example.git'
                     // credentialsId: 'github-jenkins-cicd'
             }
