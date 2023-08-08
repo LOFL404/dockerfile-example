@@ -6,3 +6,5 @@ RUN git clone https://github.com/LOFL404/static-web-template.git
 RUN cp -r static-web-template/* /var/www/html/
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 EXPOSE 80
+
+# 추가
